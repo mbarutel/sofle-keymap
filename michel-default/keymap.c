@@ -55,10 +55,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                      KC_LCTL, KC_LALT, _______, MOU_BSPC, SPC_NAV,        ENT_NUM,  BCSP_SYM, _______, KC_RALT, KC_RCTL
     ),
     [_NAV] = LAYOUT(
-      _______, _______, _______, _______, _______, _______,                   KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,
-      _______, _______, _______, _______, _______, _______,                   KC_PSCR, _______, _______, _______, _______, _______,
+      _______, LSFT(KC_F2), LSFT(KC_F3), LSFT(KC_F4), _______, _______,                   KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,
+      _______, LSFT(KC_F5), KC_F5, KC_F9, KC_F10, KC_F11,                   KC_PSCR, _______, _______, _______, _______, _______,
       _______, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_BSPC,                   _______, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, _______,
-      _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END, _______,
+      _______, _______, LCTL(KC_F7), KC_F12, LCTL(KC_F12), _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END, _______,
                          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
     ),
     [_SYM] = LAYOUT(
